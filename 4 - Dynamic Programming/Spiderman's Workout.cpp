@@ -103,11 +103,12 @@ void print(vector<T>& vec, int a=0, int b=-1){
 }
 
 const int N = 1e2+1;
+const int M = 41;
 int m; 
-vi d(N);
+vi d(M);
 int cache[41][1001];
-// dp[i][height] = max height reached given we are at position i and at our height is height
 
+// dp[i][height] = max height reached given we are at position i and at curr_height
 int dp(int i, int curr_height){
     if(i == m && curr_height == 0){return 0;}
     if(i == m || curr_height < 0){return INF;}
