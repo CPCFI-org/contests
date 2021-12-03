@@ -103,15 +103,15 @@ void print(vector<T>& vec, int a=0, int b=-1){
 }
 
 const int N = 1e2+1;
-int n; 
+int m; 
 vi d(N);
-int cache[40][1000];
- //   i    curr_height
-// dp[i][height] := max height reached given we are at position i and at our height is height
+int cache[41][1001];
+// dp[i][height] = max height reached given we are at position i and at our height is height
+
 int dp(int i, int curr_height){
+    if(i == m && curr_height == 0){return 0;}
+    if(i == m || curr_height < 0){return INF;}
     if(cache[i][curr_height]){return cache[i][curr_height];}
-    if(i == n && curr_height == 0){return 0;}
-    if(i == n || curr_height != 0){return INF;}
 
     int go_up = dp(i+1, curr_height+d[i]);
     int go_down = dp(i+1, curr_height-d[i]);
@@ -121,13 +121,13 @@ int dp(int i, int curr_height){
 }
 
 void solve(){
-    cin >> n;
-    FO(i, n) cin >> d[i];
-    FO(i, N) FO(j, 1000) {cache[i][j] = 0;}
+    cin >> m;
+    FO(i, m) cin >> d[i];
+    FO(i, 41) FO(j, 1001) {cache[i][j] = 0;}
     int ans = dp(0, 0);
     if(ans == INF){print("IMPOSSIBLE"); return;}
     int curr_height = 0;
-    FO(i, n){
+    FO(i, m){
         if(dp(i+1, curr_height+d[i]) < dp(i+1, curr_height-d[i])){
             cout << "U";
             curr_height = curr_height+d[i];
