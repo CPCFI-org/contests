@@ -17,24 +17,25 @@
 3. ADD the following information to step 2 newly created directory:
    1. **README.md**
       1. Should contain a markdown table with the following columns (use the table template in the section **CPCFI Contests table template** below):
-         1. **Unit**: number and name of the current unit in the format \<#\>-\<Unit Name\>. For example, _1-Introduction to Competitive Programming_
-         2. **Contest**: url to the contest problem sets or scoreboard
-         3. **Editorial**: url to the contest editorial. Ideally, the editorial must be created in this repository by CPCFI's current professors and alumni
-         4. **Editorial Status**: one of the following: **Missing**, **Partially Complete** or **Complete**
+         1. **\# of contest**: counts the number of contests made for each unit
+         2. **Unit**: number and name of the current unit in the format \<#\>-\<Unit Name\>. For example, _1-Introduction to Competitive Programming_
+         3. **Contest**: url to the contest problem sets or scoreboard
+         4. **Editorial**: url to the contest editorial. Ideally, the editorial must be created in this repository by CPCFI's current professors and alumni
+         5. **Editorial Status**: one of the following: **Missing**, **Partially Complete** or **Complete**
       2. For example:
-      
+
       | \# of Contest | Unit | Contest | Editorial | Editorial Status |
       | ------------- | ---- | ------- | --------- | ---------------- |
       | 1 | 1 - Introduction to Competitive Programming  |  https://open.kattis.com/contests/cfdfas |  | Missing |
       | 1 | 2 - Data Structures and Libraries  | https://open.kattis.com/contests/xjy9uy |  | Missing |
    2. **Contest editorial directories**
-      1. Each new editorial directory should be named as follows: **\<Number of contest\>-\<Number of Unit\>-\<Unit name\>**
-      2. Content:
+      1. Name format: **\<Number of contest\>-\<Number of Unit\>-\<Unit name\>/**
+      2. Directory content:
          1. README.md file
-            1. Markdown table (template **CPCFI Contest table template**) with one entry for each problem within the problem set
+            1. Markdown table (see template **CPCFI Contest table template** below) with one entry for each problem within the problem set
          2. Problemset in PDF format if possible
          3. Create a new directory for every problem
-            1. For example, **C-Spider-Trap**, where **C** indicates that it's problem C (3) within the problemset and **Spider Trap** is the name of the problem
+            1. For example, **C-Spider-Trap/**, where **C** indicates that it's problem C (3) within the problemset and **Spider Trap** is the name of the problem
             2. C++ source file and any additional files required (input or output)
             3. PDF with hand written editorial or url to problem editorial if possible
 
