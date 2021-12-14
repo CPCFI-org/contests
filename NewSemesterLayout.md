@@ -22,6 +22,7 @@
          3. **Editorial**: url to the contest editorial. Ideally, the editorial must be created in this repository by CPCFI's current professors and alumni
          4. **Editorial Status**: one of the following: **Missing**, **Partially Complete** or **Complete**
       2. For example:
+      
       | \# of Contest | Unit | Contest | Editorial | Editorial Status |
       | ------------- | ---- | ------- | --------- | ---------------- |
       | 1 | 1 - Introduction to Competitive Programming  |  https://open.kattis.com/contests/cfdfas |  | Missing |
