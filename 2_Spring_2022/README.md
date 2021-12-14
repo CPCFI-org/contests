@@ -1,4 +1,4 @@
-# CPCFI Contests: Spring 2022 - 2st period
+# CPCFI Contests: Spring 2022 - 2st period
 
 | Unit | Link |
 | ---- | ---- |
