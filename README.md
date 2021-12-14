@@ -1,5 +1,6 @@
 # CPCFI Contests
-| Unit | Link |
-| ---  | ---  |
-| 4 - Dynamic Programming | https://open.kattis.com/contests/dqd3pk
 
+| Period | Semester | Link |
+| ------ | -------- | ---- |
+| 1 | Fall 2021 |  |
+| 2  | Spring 2022  |   |
