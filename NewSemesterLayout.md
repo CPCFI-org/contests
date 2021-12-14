@@ -33,6 +33,12 @@
       2. Directory content:
          1. README.md file
             1. Markdown table (see template **CPCFI Contest table template** below) with one entry for each problem within the problem set
+            2. For example:
+
+            | Problem ID | Problem Name | Categories |
+            | ---------- | ------------ | ---------- |
+            | F | Spiderman's Workout   | DP |
+            | G | Plane Ticket Pricing  | DP |
          2. Problemset in PDF format if possible
          3. Create a new directory for every problem
             1. For example, **C-Spider-Trap/**, where **C** indicates that it's problem C (3) within the problemset and **Spider Trap** is the name of the problem
@@ -55,7 +61,7 @@ The following table template should be used when creating a new set of contests 
 
 The following table template should be used inside the editorial directories
 
-\# CPCFI Contest
+\# CPCFI Contest: [1st|2nd|3rd etc] contest for unit [Number]-[Name of Unit]
 
 | Problem ID | Problem Name | Categories |
 | ---------- | ------------ | ---------- |
