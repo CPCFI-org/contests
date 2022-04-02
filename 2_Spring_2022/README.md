@@ -8,7 +8,7 @@
 | 4 | 26-Feb-2022    | [2021 ICPC Brazil Subregional Programming Contest](https://codeforces.com/gym/103388)  | [Editorial 1](https://www.youtube.com/watch?v=wYdb8YWd87Q&ab_channel=MaratonaSBC) [Editorial 2](https://blog.csdn.net/qq_51354600/article/details/121160014) |
 | 5 | 5-March-2022   | [2020 ICPC - Gran Premio de Mexico - Repechaje](https://codeforces.com/gym/102966) | [Editorial](https://acm.iteso.mx/share/gpmx2020_editorial_completo.pdf) |
 | 6 | 12-March-2022  | [2020 ICPC Gran Premio de Mexico 3ra Fecha](https://codeforces.com/gym/102890) |[Editorial](https://acm.iteso.mx/share/gpmx2020_editorial_completo.pdf) |
-| 7 | 19-March-2022  | | |
+| 7 | 19-March-2022  | [2021 ICPC Mexico Regionals](https://omegaup.com/arena/ICPCMX2021?fbclid=IwAR3kC-oE1GZBF7oT5nRfQgZJD3aYTjf5Jvmo0ANTrUVae58Cl53JBHR1uyw) | |
 | 8 | 26-March-2022  | | |
 | 9 | 02-April-2022  | | |
 | 10 | 09-April-2022 | | |
